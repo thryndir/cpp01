@@ -1,0 +1,19 @@
+[
+  {
+    "arguments": [
+      "/home/lgalloux/.nix-profile/bin/c++",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c++98",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "obj/Zombie.o",
+      "src/Zombie.cpp"
+    ],
+    "directory": "/home/lgalloux/Documents/cpp01/ex00",
+    "file": "/home/lgalloux/Documents/cpp01/ex00/src/Zombie.cpp",
+    "output": "/home/lgalloux/Documents/cpp01/ex00/obj/Zombie.o"
+  }
+]
