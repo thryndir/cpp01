@@ -2,7 +2,9 @@
 
 int main(void)
 {
-  Zombie Test;
-  Test.RandomChump(std::string("test"));
+  Zombie* Test = newZombie("gneugneu");
+  Test->announce();
+  randomChump("gaga");
+  delete Test;
   return (0);
 }

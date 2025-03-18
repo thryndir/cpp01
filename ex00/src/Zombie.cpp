@@ -1,19 +1,12 @@
 #include "Zombie.hpp"
-#include <string>
+#include <iostream>
 
-void  Zombie::Announce(void) const
+void  Zombie::announce(void) const
 {
   std::cout << mName << ": BraiiiiiiinnnzzzZ...\n";
 }
 
-void  Zombie::RandomChump(std::string Name)
-{
-  Zombie* ToDestroy = NewZombie(Name);
-  ToDestroy->Announce();
-  delete ToDestroy;
-}
-
 Zombie::~Zombie()
 {
-  std::cout << mName;
+  std::cout << mName << std::endl;
 }
