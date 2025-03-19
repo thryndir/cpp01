@@ -1,4 +1,4 @@
-NAME := BraiiiiiiinnnzzzZ
+NAME := replace
 CXX := c++
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 CPPFLAGS := -Iinclude

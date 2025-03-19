@@ -21,8 +21,9 @@ int main(int argc, char **argv)
     std::cerr << "You need 3 arguments\n";
     return (1);
   }
-  std::ifstream infile(argv[1]);
-  std::ofstream outfile("outfile");
+  std::string fileName(argv[1]);
+  std::ifstream infile(fileName.c_str());
+  std::ofstream outfile(fileName.append(".replace").c_str());
   if (infile.is_open() && outfile.is_open())
   {
     std::string input;
@@ -30,6 +31,7 @@ int main(int argc, char **argv)
     {
       transformInput(input, argv[2], argv[3]);
       outfile << input;
+      outfile << std::endl;
     }
     infile.close();
     outfile.close();
