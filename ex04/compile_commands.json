@@ -15,5 +15,22 @@
     "directory": "/home/lgalloux/Documents/cpp01/ex04",
     "file": "/home/lgalloux/Documents/cpp01/ex04/src/main.cpp",
     "output": "/home/lgalloux/Documents/cpp01/ex04/obj/main.o"
+  },
+  {
+    "arguments": [
+      "/home/lgalloux/.nix-profile/bin/c++",
+      "-Wall",
+      "-Wextra",
+      "-Werror",
+      "-std=c++98",
+      "-Iinclude",
+      "-c",
+      "-o",
+      "obj/Harl.o",
+      "src/Harl.cpp"
+    ],
+    "directory": "/home/lgalloux/Documents/cpp01/ex04",
+    "file": "/home/lgalloux/Documents/cpp01/ex04/src/Harl.cpp",
+    "output": "/home/lgalloux/Documents/cpp01/ex04/obj/Harl.o"
   }
 ]
